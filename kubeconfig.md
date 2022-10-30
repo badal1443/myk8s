@@ -29,4 +29,8 @@ If config file is  `$HOME/.kube/config` no need to provide it as an argument to 
 
 #### Change the context of kubeconfig to use another cluster.
 > kubectl config use-context username@clustername
+
+#### Other kubectl config commands 
+> kubectl config -h
+
   
