@@ -17,3 +17,16 @@
 If config file is  `$HOME/.kube/config` no need to provide it as an argument to kubectl command. Use:
 
 `kubectl get pod`
+
+> This config file is in YAML, but we never create this as a kubernetes object.
+
+
+#### Command to view default config file
+> kubectl config view
+
+#### Command to view specific config file
+> kubectl config view --kubeconfig=path to config file
+
+#### Change the context of kubeconfig to use another cluster.
+> kubectl config use-context username@clustername
+  
